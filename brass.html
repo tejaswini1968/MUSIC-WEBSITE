@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just Music Things</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styling.css">
+    <style>
+        img:hover {
+            opacity: 0.75;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-other fixed-top">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="ture" aria-expanded="false">
+                        Musical Instruments
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a href="brass.html" class="dropdown-item">Brass</a>
+                        <a href="key.html" class="dropdown-item">Keyboard</a>
+                        <a href="perc.html" class="dropdown-item">Percussion</a>
+                        <a href="string.html" class="dropdown-item">String</a>
+                        <a href="wind.html" class="dropdown-item">Woodwind</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a href="vocals.html" class="nav-link">Vocals</a></li>
+                <li class="nav-item"><a href="contact_us.html" class="nav-link">Contact Us</a></li>
+                <li class="nav-item"><a href="ref.html" class="nav-link">References</a></li>
+            </ul>
+        </div>
+        </nav>
+        <br><br>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1>Brass Instruments</h1>
+            </div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col-sm-10">
+            <h2>About</h2>
+            <p>
+                People have been blowing into objects to make musical sounds since ancient times. The first brass instruments were adapted from animal horns and seashells: they are long hollow tubes that are blown into. In the 19th century, valves were added, allowing for a greater range of notes to be played. All brass instruments are played by putting the mouthpiece to the lips, pressing the lips together tightly, and blowing air through the middle of them to make them vibrate or "buzz". Changing the pressure of the lips alters the pitch of the note sounded. The way musicians use their facial muscles and lip shape when blowing into the instrument is called "embounchure". Brass players can also alter the sound their instrument makes by using mutes, which are cone-shaped wooden or metal objects placed inside the bell of the instrument. The orchestral brass section includes trumpets, trombones, French horns, and tubas.
+            </p>
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+        <br><br>
+        <div class="row">
+            <h6>
+                Click on the image to know in details about that brass instrument.
+            </h6>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="pictures/brass_cornet.jpg" class="img-thumbnail bg-dark" alt="cornet" data-toggle="modal" data-target="#cornetModal">
+                    <div class="caption text-dark text-center">
+                        <h5>Cornet</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="pictures/brass_frenchhorn.jpg" class="img-thumbnail bg-dark" alt="french horn" data-toggle="modal" data-target="#frenchhornModal">
+                    <div class="caption text-dark text-center">
+                        <h5>French horn</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="pictures/brass_trambone.jpg" class="img-thumbnail bg-dark" alt="trombone" data-toggle="modal" data-target="#tromboneModal">
+                    <div class="caption text-dark text-center">
+                        <h5>Trombone</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="thumbnail">
+                    <img src="pictures/brass_trumpet.jpg" class="img-thumbnail bg-dark" alt="trumpet" data-toggle="modal" data-target="#trumpetModal">
+                    <div class="caption text-dark text-center">
+                        <h5>Trumpet</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="thumbnail">
+                    <img src="pictures/brass_tube.jpg" class="img-thumbnail bg-dark" alt="tuba" data-toggle="modal" data-target="#tubaModal">
+                    <div class="caption text-dark text-center">
+                        <h5>Tuba</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="cornetModal" tabindex="-1" role="dialog" aria-labelledby="cornetLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="cornetLabel">Cornet</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>
+                        The cornet is similar to the trumpet but is usually played in bands and only occasionally in orchestras. It differs from the trumpet in that it is more compact and has a wider bore(tube). To produce a sound, the cornet player places the lips to the mouthpiece, presses them together firmly, and blows air through the middle to make them vibrate or "buzz". By altering the pressure of the lips, the cornet player can change the pitch produced. Cornets often take the lead melody in traditional brass bands, military bnads, and are sometimes used in jazz bands.
+                    </strong></p>
+                </div>
+                <div class="modal-footer d-none"></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="frenchhornModal" tabindex="-1" role="dialog" aria-labelledby="frenchhornLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="frenchhornLabel">French horn</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>
+                        The French horn is an intricately coiled metal tube with a large flared bell at one end and a mouthpiece at the other. The basic tubing of the modern French horn is 12-13ft (3.7-4m) long, though there is extra tubing for the valves. The horn player blows into the mouthpiece while buzzing the lips together to sound a note. Different pitches can be produced by altering the pressure of the lips and by pressing down the valves. The horn is an important instrument in the orchestral brass section, with a lower range than trumpets and trombones, but higher than the tuba.
+                    </strong></p>
+                </div>
+                <div class="modal-footer d-none"></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="tromboneModal" tabindex="-1" role="dialog" aria-labelledby="tromboneLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="tromboneLabel">Trombone</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>
+                        Like all brass instruments, the trombone is a long, bent metal tube. While trumpets and cornets have valves to help produce different notes, the trombone has a slide mechanism. By pushing the slide out the tube is lengthened (making the note lower), and by pulling it back in the tube is shortened (making the note higher). The trombone is a versatile instrument, being played in orchestras, marching bands, and jazz bands.
+                        <p><strong></strong>
+                    </strong></p>
+                </div>
+                <div class="modal-footer d-none"></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="trumpetModal" tabindex="-1" role="dialog" aria-labelledby="trumpetLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="trumpetLabel">Trumpet</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>
+                        The trumpet is the oldest of all brass instruments and is thought to be more than 3,500 years old, although the early ones didn't have piston valves, which were added around 1820. To play the trumpet, players hold their lips taut and vibrate or "buzz" them together as they blow into the mouthpiece. The air vibrates down the trumpet (which is really bent tube of metal) and comes out of the bell. The trumpet plays the highest notes in the orchestral brass section and is also very popular in jazz bands or as a solo instrument.
+                    </strong></p>
+                </div>
+                <div class="modal-footer d-none"></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="tubaModal" tabindex="-1" role="dialog" aria-labelledby="tubaLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="tubaLabel">Tuba</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>
+                        The tuba is the largest and deepest-sounding instrument in a regular orchestral brass section. Unlike the trumpet and trombone, the tuba is held upright when it is played. As with all brass instruments, the tuba player sounds a note by putting the mouthpiece to the lips, pressing them together, and blowing air through the middle to vibrate or "buzz" them. The tuba has valves, which produce different notes when pressed. It provides the bass for the brass section in an orchestra and is also played in brass bands and jazz music.
+                    </strong></p>
+                </div>
+                <div class="modal-footer d-none"></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

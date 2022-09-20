@@ -1,0 +1,87 @@
+/*main page*/
+h6.main {
+    color: white;
+}
+.body-main {
+    background-image: url(pictures/bg1.jpg);
+}
+.c-h {
+    background-color: chocolate;
+}
+.c-b {
+    background-color: blanchedalmond;
+}
+.jumbotron.jumbotron-main {
+    background-color: #44056b;
+    font-family: cursive;
+}
+.quote {
+    background-color: #f29bdf;
+    color: white;
+}
+
+
+/*vocals page*/
+.male{
+    background-color: #00a32e;
+}
+.female{
+    background-color: #fa115b;
+}
+.mbar{
+    background-color: #00ed43;
+}
+.fembar{
+    background-color: #f5a2bc;
+}
+.mlist{
+    background-color: #00ff48;
+}
+.femlist{
+    background-color: #f5bacc;
+}
+.jumbotron.jum-m {
+    background-color: #004514;
+}
+.jumbotron.jum-f {
+    background-color: #52051e;
+}
+
+
+/* ref page */
+.accordion .card-header {
+    background-color: #d99a14;
+}
+.accordion .card-body {
+    background-color: #80a3ed;
+}
+.btn-link {
+    text-decoration:none;
+    color: inherit;
+}
+
+
+/*common to most pages*/
+body {
+    background-image: url(pictures/bg2.jpg);
+}
+p {
+    font-size: 20px;
+}
+h6 {
+    font-size: 25px;
+}
+.jumbotron {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: #fa6305;
+}
+.navbar-other {
+    background-color: #3319a8;
+}
+.modal {
+    background-image: url(pictures/bg3.png);
+}
+.modal-content {
+    background-image: url(pictures/bg4.jpg);
+}

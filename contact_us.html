@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just Music Things</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styling.css">
+
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-other fixed-top">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="ture" aria-expanded="false">
+                        Musical Instruments
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a href="brass.html" class="dropdown-item">Brass</a>
+                        <a href="key.html" class="dropdown-item">Keyboard</a>
+                        <a href="perc.html" class="dropdown-item">Percussion</a>
+                        <a href="string.html" class="dropdown-item">String</a>
+                        <a href="wind.html" class="dropdown-item">Woodwind</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a href="vocals.html" class="nav-link">Vocals</a></li>
+                <li class="nav-item"><a href="contact_us.html" class="nav-link">Contact Us</a></li>
+                <li class="nav-item"><a href="ref.html" class="nav-link">References</a></li>
+            </ul>
+        </div>
+        </nav>
+        <br><br><br><br>
+        <h1 class="text-center">Write to Us</h1>
+        <div class="row">
+            <div class="col"></div>
+        <form class="col-sm-8">
+            <label for="name">Your Name:</label>
+            <div class="form-group row">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="First name">
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Last name">
+                </div>
+              </div>
+            <div class="form-group">
+                <label for="email">Email address:</label>
+                <input type="email" class="form-control" id="email" placeholder="Write your email here...">
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-3"><label for="checkbuttons">Tell us about you:</label></div>
+                <div class="col-sm-9">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" value="1" id="inst">
+                    <label class="form-check-label" for="inst">Instrumentalist</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" value="2" id="voc">
+                    <label class="form-check-label" for="voc">Vocalist</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" value="3" id="comp">
+                    <label class="form-check-label" for="comp">Composer</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" value="4" id="enthu">
+                    <label class="form-check-label" for="enthu">Just a music enthusiast</label>
+                </div>
+            </div>
+            </div>
+            <div class="form-group">
+                <label for="comment">Your suggestions & questions:</label>
+                <textarea class="form-control" rows="5" id="comment"></textarea>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-success">Submit</button>
+            </div>
+        </form>
+        <div class="col"></div>
+    </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

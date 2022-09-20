@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just Music Things</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styling.css">
+    <style>
+        img:hover {
+            opacity: 0.75;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-other fixed-top">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="ture" aria-expanded="false">
+                        Musical Instruments
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a href="brass.html" class="dropdown-item">Brass</a>
+                        <a href="key.html" class="dropdown-item">Keyboard</a>
+                        <a href="perc.html" class="dropdown-item">Percussion</a>
+                        <a href="string.html" class="dropdown-item">String</a>
+                        <a href="wind.html" class="dropdown-item">Woodwind</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a href="vocals.html" class="nav-link">Vocals</a></li>
+                <li class="nav-item"><a href="contact_us.html" class="nav-link">Contact Us</a></li>
+                <li class="nav-item"><a href="ref.html" class="nav-link">References</a></li>
+            </ul>
+        </div>
+        </nav>
+        <br><br>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1>String Instruments</h1>
+            </div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col-sm-10">
+            <h2>About</h2>
+            <p>
+                Since ancient times, stringed instruments, known as chordophones, have developed to all shapes and sizes. These instruments make sounds by vibrating strings. The strings may be played with a bow, plucked with fingers, or struck with hammers. Nearly all chordophones are made up of strings stretched across a resonator. This is the hollow part of the instrument that vibrates along with the strings, making them sound more pleasing. The resonator usually has one ore two sound holes cut into it to help the sound travel out of the instrument, for example the single, circular hole in the body of a guitar or the two f-shaped holes of a violin.
+            </p>
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+        <br><br>
+        <div class="row">
+            <h6>
+                Click on the image to know in details about that string instrument.
+            </h6>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="pictures/string_violin.jpg" class="img-thumbnail bg-dark" alt="violin" data-toggle="modal" data-target="#violinModal">
+                    <div class="caption text-center text-dark">
+                        <h5>Violin</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="pictures/string_cello.jpg" class="img-thumbnail bg-dark" alt="cello" data-toggle="modal" data-target="#celloModal">
+                    <div class="caption text-center text-dark">
+                        <h5>Cello</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="pictures/string_doublebass.jpg" class="img-thumbnail bg-dark" alt="double bass" data-toggle="modal" data-target="#doublebassModal">
+                    <div class="caption text-center text-dark">
+                        <h5>Double bass</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="thumbnail">
+                    <img src="pictures/string_harp.jpg" class="img-thumbnail bg-dark" alt="harp" data-toggle="modal" data-target="#harpModal">
+                    <div class="caption text-center text-dark">
+                        <h5>Harp</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="thumbnail">
+                    <img src="pictures/string_shamisen.jpg" class="img-thumbnail bg-dark" alt="shamisen" data-toggle="modal" data-target="#shamisenModal">
+                    <div class="caption text-center text-dark">
+                        <h5>Shamisen</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="thumbnail">
+                    <img src="pictures/string_guitar.jpg" class="img-thumbnail bg-dark" alt="guitar" data-toggle="modal" data-target="#guitarModal">
+                    <div class="caption text-center text-dark">
+                        <h5>Guitar</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="thumbnail">
+                    <img src="pictures/string_electricguitar.jpg" class="img-thumbnail bg-dark" alt="electric guitar" data-toggle="modal" data-target="#elecguitarModal">
+                    <div class="caption text-center text-dark">
+                        <h5>Electric guitar</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="violinModal" tabindex="-1" role="dialog" aria-labelledby="violinLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="violinLabel">Violin</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>
+                        The violin is the smallest and highest-pitched of the instruments in the string family. It is related to North African instrument called a rebab (a three-stringed instrument also played with a bow drawn across the strings). Violins have been traditionally used as an accompaniment to singing and dancing. It is also an important classical solo instrument, as well as taking pride of place at the front of orchestras. When played, the violin is held under the chin and the fingers of the left hand press the strings on the neck of the instrument to produce different pitches when the string is bowed and plucked. The bow is held in the right hand and it is drawn across the strings at right angles to make them sound.
+                    </strong></p>
+                </div>
+                <div class="modal-footer d-none"></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="celloModal" tabindex="-1" role="dialog" aria-labelledby="celloLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="celloLabel">Cello</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>
+                        Like the violin and viola, the cello has a hollow wooden body with two sound holes, and four strings running along the body and neck. However, it is much larger and cellists usually play the instrument seated with the body of the cello placed between the legs. Modern cellos usually have an endpin, a spike that supports the instrument on the floor. In the Baroque era (1600-1750), the cello was used largely to accompany other instruments. Later, in works by composers such as Beethoven and Brahms, the cello became an expressive solo instrument in its own right.
+                    </strong></p>
+                </div>
+                <div class="modal-footer d-none"></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="doublebassModal" tabindex="-1" role="dialog" aria-labelledby="doublebassLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="doublebassLabel">Double bass</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>
+                        The largest member of violin family, the double bass produces the lowest notes of the orchestra's string section. Like the cello, it is played upright but the bassist usually stands or perches on a high stool. It can be played with a bow but in some types of music, such as jazz and swing, the strings are usually plucked with the fingers.
+                    </strong></p>
+                </div>
+                <div class="modal-footer d-none"></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="harpModal" tabindex="-1" role="dialog" aria-labelledby="harpLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="harpLabel">Harp</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>
+                        From folk music to classical concertos, the harp is played in many different forms and musical styles. The basic structure of the harp is a set of strings stretched over a frame. The harpist plucks or strums the strings to produce the notes. Harps vary from large, ornate orchestral models with pedalsl, to small portable varieties. In an orchestra, a single harp is used in the string section and can be played as a solo instrument. In Irish folk music, the harp is an iconic instrument often used to accompany songs and is the national symbol of Ireland.
+                    </strong></p>
+                </div>
+                <div class="modal-footer d-none"></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="shamisenModal" tabindex="-1" role="dialog" aria-labelledby="shamisenLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="shamisenLabel">Shamisen</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>
+                        The shamisen is a stringed instrument from Japan, with a name that means "three strings." It is similar to a guitar or banjo, with a long neck that stretches three strings over a hollow wooden body. Many different kinds of Japanese music and performance are traditionally accompanied by the shamisen, such as <em>bunraku</em> puppet shown, geisha dancing performances, and <em>kabuki</em>, a dance-drama where performers wear bright makeup. The width of a shamisen's neck depends on what type of performance it was built to accompany.
+                    </strong></p>
+                </div>
+                <div class="modal-footer d-none"></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="guitarModal" tabindex="-1" role="dialog" aria-labelledby="guitarLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="guitarLabel">Guitar</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>
+                        The guitar is one of the most widely played instruments in the world. It is incredibly versatile and is used in many different genres of music. From Spanish flamenco and accompanying folksongs to taking the spotlight as a solo instrument in classical works, the story of the acoustic guitar mirrors that of Western music. The guitar consists of a hollow wooden body with six strings stretched over it and along a narrow neck. Guitars usually have a single, round sound hole in the body. The strings can be strummed with the fingers or plucked. Some guitarists use a plectrum (triangular piece of plastic) to sound to strings.
+                    </strong></p>
+                </div>
+                <div class="modal-footer d-none"></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="elecguitarModal" tabindex="-1" role="dialog" aria-labelledby="elecguitarLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="elecguitarLabel">Electric guitar</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>
+                        The invention of the electric guitar was pivotal in the development of music from the late 1940s onward (including the blues, rock-and-roll, and heavy metal) and is responsible for the creation of modern popular music as we know it today. The breakthrough came when the guitar was plugged in to an amplifier by a cable. Here electric signals from the guitar are converted into sound. Guitars could now be heard over the other instruments in a band and became the lead instrument. Electric guitars are played by finger-plucking, or by striking the strings with a plectrum, or pick (small triangular pieces of plastic).
+                    </strong></p>
+                </div>
+                <div class="modal-footer d-none"></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

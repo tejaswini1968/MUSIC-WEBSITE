@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just Music Things</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styling.css">
+    <style>
+        img:hover {
+            opacity: 0.75;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-other fixed-top">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="ture" aria-expanded="false">
+                        Musical Instruments
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a href="brass.html" class="dropdown-item">Brass</a>
+                        <a href="key.html" class="dropdown-item">Keyboard</a>
+                        <a href="perc.html" class="dropdown-item">Percussion</a>
+                        <a href="string.html" class="dropdown-item">String</a>
+                        <a href="wind.html" class="dropdown-item">Woodwind</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a href="vocals.html" class="nav-link">Vocals</a></li>
+                <li class="nav-item"><a href="contact_us.html" class="nav-link">Contact Us</a></li>
+                <li class="nav-item"><a href="ref.html" class="nav-link">References</a></li>
+            </ul>
+        </div>
+        </nav>
+        <br><br>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1>Percussion Instruments</h1>
+            </div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col-sm-10">
+            <h2>About</h2>
+            <p>
+                Percussion instruments can be anything that is struck, shaken, or scraped. These instruments have been used since ancient times, but in the 20th century musicians began experimenting with percussion and using rhythm in new ways in both classical music and the emerging popular music. Orchestral percussion includes the timpani, cymbals, drums, and xylophones.
+            </p>
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+        <br><br>
+        <div class="row">
+            <h6>
+                Click on the image to know in details about that percussion instrument.
+            </h6>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="thumbnail">
+                    <img src="pictures/perc_xylophone.jpg" class="img-thumbnail bg-dark" alt="xylophone" data-toggle="modal" data-target="#xylophoneModal">
+                    <div class="caption text-center text-dark">
+                        <h4>Xylophone</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="thumbnail">
+                    <img src="pictures/perc_drum.jpg" class="img-thumbnail bg-dark" alt="drums" data-toggle="modal" data-target="#drumModal">
+                    <div class="caption text-center text-dark">
+                        <h4>Drums</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="thumbnail">
+                    <img src="pictures/perc_timpani.jpg" class="img-thumbnail bg-dark" alt="timpani" data-toggle="modal" data-target="#timpaniModal">
+                    <div class="caption text-center text-dark">
+                        <h4>Timpani</h4>
+                    </div>
+                </div>
+            </div>        
+            <div class="col-sm-6">
+                <div class="thumbnail">
+                    <img src="pictures/perc_bell.jpg" class="img-thumbnail bg-dark" alt="bells" data-toggle="modal" data-target="#bellModal">
+                    <div class="caption text-center text-dark">
+                        <h4>Cymbals, gongs and bells</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="xylophoneModal" tabindex="-1" role="dialog" aria-labelledby="xylophoneLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="xylophoneLabel">Xylophone</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>
+                        The xylophone is a percussion instrument that can play melodies. It consists of a set of wooden bars set across a frame. Each wooden bar produces a single note when struck. The musician uses small mallets to strike the bars. The mallets are usually made of hard rubber but can be made of wood. As well as being a classical orchestral instrument, the xylophone is widely played in African music and many types of folk music. It is also popular in some forms of jazz.
+                    </strong></p>
+                </div>
+                <div class="modal-footer d-none"></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="drumModal" tabindex="-1" role="dialog" aria-labelledby="drumLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="drumLabel">Drums</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>
+                        Drums have been used around the world since prehistoric times and appear in all shapes and sizes. Known as membranophones, drums make a sound when the stretched membrane is struck with an object, such as a rounded stick or the tips of the fingers. When the membrane is struck it vibrates and produces a sound. Some drums have pegs that can be adjusted to loosen or tighten the membrane, which changes the pitch and quality of the sound. There are many types of drums, such as bongos that are played with the hands and the Irish bodhran that is played with a double-ended beater. Drum kits are used to play rock music as well.
+                    </strong></p>
+                </div>
+                <div class="modal-footer d-none"></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="timpaniModal" tabindex="-1" role="dialog" aria-labelledby="timpaniLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="timpaniLabel">Timpani</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>
+                        Timpani, or kettle drums, are a special type of drum used in an orchestra. These drums are tuned by adjusting the tension of the membrane stretched across the head of the drum, differnet notes can be produced. In orchestras they are often used in pairs, with each drum tuned to a different pitch. This helps to give extra emphasis to the lower notes of a harmony. When played with rapidly rolling sticks the sound of the timpani adds a sense of excitement to music.
+                    </strong></p>
+                </div>
+                <div class="modal-footer d-none"></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="bellModal" tabindex="-1" role="dialog" aria-labelledby="bellLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="bellLabel">Cymbals, gongs, and bells</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>
+                        Many percussion instruments, from the huge gong to the tiny triangle, are made of metal that resonates when it is hit. The varied shapes and sizes of the instruments produce different sounds. The percussionist can also use a range of techniques to get different effects. For example, cymbals may be banged together to give a loud crash, or gently stroked with a wire brush for a softer ring.
+                    </strong></p>
+                </div>
+                <div class="modal-footer d-none"></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
